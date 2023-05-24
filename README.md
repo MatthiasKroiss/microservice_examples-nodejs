@@ -11,3 +11,17 @@ To run ```npm run dev```
 ```docker run --name user-service -p 9000:9000 -d user-service```
 
 ```docker run --name user-service -p 9001:9001 -d order-service```
+
+
+## APIs
+
+| Method | url |
+| ------ | --- |
+| GET | localhost:9001/orders/:username |
+| POST and GET | localhost:9001/orders |
+| GET | localhost:9000/users/:username |
+| POST and GET | localhost:9000/users |
+
+
+
+
